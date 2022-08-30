@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="./css/index.css">
 <link rel="stylesheet" href="./css/navegacion.css">
-<link rel="stylesheet" href="./css/header_footer.css">
+<link rel="stylesheet" href="./css/languaje.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="icon" type="image/x-icon" href="/images/favicon.png">
@@ -16,7 +16,10 @@
 <link rel="icon" type="image/x-icon" href="./images/favicon.png">  
 <title>Alfemin</title>
 </head>
-<body>
+<body >
+  <section id="body" >
+
+  
   <i class="icon-menu burger-button"></i>
     <section class="navegacion navegacion2">
       <nav class="menu">
@@ -32,6 +35,10 @@
   <header>
     <nav class="menu">
       <ul>
+        <li>Spanish</li>
+
+        <button onclick="english()">English</button>
+        <button onclick="spanish()">Spanish</button>
         <li><a href="./index.html">Inicio</a> </li> 
           <li><a href="./servicios.html">Servicios</a> </li> 
           <li><a href="./nosotros.html">Nosotros</a></li>
@@ -193,8 +200,198 @@
       <a href=""><i class="fab fa-twitter-square"></i></a>
     </section>
   </footer>
+</section>
+
+
+<!-- -----------------------------English-------------------------------------- -->
+<section id="body2" class="hide">
+
+
+  <i class="icon-menu burger-button"></i>
+    <section class="navegacion navegacion2">
+      <nav class="menu">
+        <ul>
+
+          <li><a href="./index.html">Inicio</a> </li> 
+          <li><a href="./servicios.html">Servicios</a> </li> 
+          <li><a href="./nosotros.html">Nosotros</a></li>
+          <li><a href="./contactanos.html">Contáctanos</a></li>
+          
+        </ul>
+      </nav>
+    </section>
+  <header>
+    <nav class="menu">
+      <ul>
+        <button onclick="english()">English</button>
+        <button onclick="spanish()">Spanish</button>
+        <li>English</li>
+        <li><a href="./index.html">Inicio</a> </li> 
+          <li><a href="./servicios.html">Servicios</a> </li> 
+          <li><a href="./nosotros.html">Nosotros</a></li>
+          <li><a href="./contactanos.html">Contáctanos</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <img src="./images/hero.png" alt="">
+    </section>
+    <section class="hero2">
+      <img src="./images/celular_index.png" alt="">
+    </section>
+  </header>
+  <section class="nombre">
+    <h1>Alfemin</h1>
+  </section>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12   imagen-main">
+          <img src="./images/bienvenida.png" alt="">
+        </div>
+      
+        <div class="col-lg-6 col-12 texto-main ">
+          <h2>Somos experiencia</h2>
+          <p>ALFEMIN es una empresa enfocada en otorgar la más alta calidad en servicios de consultoría para los empresarios, microempresarios y emprendedores desde un punto de vista objetivo, centrado en crear y aportar valor para sus negocios y con un estricto compromiso de responsabilidad con el cumplimiento de los organismos regulatorios tanto locales como internacionales.</p>
+          <p>Nuestra fortaleza está en nuestro personal calificado para logar los resultados que espera, con procesos ágiles y diseñados con estricto cuidado para alcanzar la más alta excelencia en servicios técnicos especializados para sus empresas.</p>
+          <p>Le invitamos a explorar la gama de servicios que tenemos preparados para  usted, bienvenido o bienvenida a ALFEMIN.</p>
+        </div>
+        
+      </div>
+    </div>
+  </main>
+  <section class="servicios">
+    <div class="barra-servicios">
+      <h2 class="text-center ">Servicios</h2>
+      <h3 class="text-center ">Ayudarlo siempre es nuestra prioridad</h3>
+<!--       <h6 class="text-center">Sientete libre de explorar todos nuestros servicios y pedir nuestra asesoria para tomar siempre las mejores decisiones</h6>
+ -->    </div>
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/bienvenida.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="">ver más</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/bienvenida.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="">ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/bienvenida.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="">ver más</a>
+            </div>
+          </div>
+        </div>
+
+      </div> -->       
+
+      <article class="row px-5 px-lg-0 ">
+        <div class="col-lg-4  col-12 offset-lg-2">
+          <div class="tarjeta">
+            <img src="./images/ico3.png" width="70" alt="">
+            <div class="texto">
+              <h3>Sector Alimentos</h3>
+              <p>Nuestra asesoría y acompañamiento está enfocado en el crecimiento de su empresa, de tal manera que sus clientes cuenten con la seguridad de que está ofreciendo un producto de calidad que cumple con las normas nacionales e internacionales.</p>
+                <a href="./servicios.html">ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-12 mt-5 mt-lg-0 ">
+          <div class="tarjeta">
+            <img src="./images/ico4.png" width="70" alt="">
+            <div class="texto">
+              <h3>Sector Contable</h3>
+              <p>Nuestro servicio de asesoría tributaria se enfoca en la implementación de los controles
+                 y procedimientos que se requieren para aplicar de forma correcta las normas tributarias, y que de esta forma la empresa este al día en sus impuestos y recursos financieros.</p>
+                <a href="./servicios.html">ver más</a>
+            </div>
+          </div>
+        </div>
+        
+      </article>
+    </div>
+  </section>
+
+  <section class="seccion2">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-6 imagen-main d_lg">
+          <img src="./images/seccion2.png" alt="">
+        </div>
+        <div class="col-lg-6 col-12 texto-main ">
+          <h2>Cómo cotizar nuestros servicios</h2>
+          <p>Lo invitamos a conocer todos los servicios que tenemos para ofrecerles cada uno de ellos ha sido diseñado para satisfacer las necesidades que su empresa requiere en lo que respecta a asesoría y acompañamiento técnico en nuestras distintas áreas.  </p>
+          <ol>
+            <li>Lo primero que debe hacer es ingresar los datos que le solicitamos en el formulario</li>
+            <li>Podrá escoger entras las distintas opciones de servicios que tenemos, entre ellas</li>
+            <ul>
+              <li>• Asesorías técnicas sector alimentos</li>
+              <li>• Registros sanitarios</li>
+              <li>• Certificaciones</li>
+              <li>• Asesoría técnica tributaria</li>
+            </ul>
+            <li>Déjenos un detalle amplio de su consulta</li>
+            <li>Envíe el formulario y lo contactaremos en breve</li>
+          </ol>
+        </div>
+        <div class="col-6 imagen-main d_sm">
+          <img src="./images/seccion2.png" alt="">
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="parteFinal" id="contactanos">
+    <div class="contenedorFinal">
+      <h2>¡Conózcanos hoy!</h2>
+      <p>Nuestro equipo está siempre disponible para atender sus requerimientos</p>
+      <a href="./contactanos.html"><button>Contrátanos</button></a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex" >
+          <img src="./images/logo-bn.png" alt="">
+        </div>
+        <div class="col-12">
+<!--           <p>Pradera 1 MzE4 V12 - Guayaquil - Ecuador</p>
+ -->       <p>Celular:(+593) 98 654 7598</p>
+<!--           <p>Telf:(+593) 4 507 3054</p>
+ -->    </div>
+      </div>
+    </div>
+    <section class="social">
+      <a href=""><i class="fab fa-facebook-square"></i></a>
+      <a href=""><i class="fab fa-instagram"></i></a>
+      <a href=""><i class="fab fa-twitter-square"></i></a>
+    </section>
+  </footer>
+</section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/276faf51c6.js" crossorigin="anonymous"></script>
   <script src="./js/button_nav.js"></script>
+  <script src="./js/languaje.js"></script>
+  
 </body>
 </html>
