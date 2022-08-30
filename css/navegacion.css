@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?n3vy3a");
+  src: url("../fonts/icomoon.eot?n3vy3a#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?n3vy3a") format("truetype"), url("../fonts/icomoon.woff?n3vy3a") format("woff"), url("../fonts/icomoon.svg?n3vy3a#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e906";
+}
+
+body {
+  display: block;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.navegacion2 {
+  display: none;
+}
+.navegacion2 a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+.navegacion2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.navegacion2 ul li {
+  margin-top: 40px;
+}
+@media (max-width: 650px) {
+  .navegacion2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.navegacion2 nav {
+  position: fixed;
+  background: rgba(38, 38, 38, 0.8);
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: -100vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navegacion2 nav.is-active {
+  left: 0vw;
+}
+
+.burger-button {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  background: rgba(151, 208, 169, 0.4784313725);
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  color: white;
+  border-radius: 50%;
+  font-size: 16px;
+  margin: 3px 0 0 3px;
+  z-index: 3;
+}
+@media (max-width: 650px) {
+  .burger-button {
+    display: block;
+  }
+}
+
+.hero2 {
+  display: none;
+}
+.hero2 img {
+  width: 100%;
+}
+@media (max-width: 650px) {
+  .hero2 {
+    display: block;
+  }
+}

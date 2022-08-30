@@ -1,0 +1,94 @@
+.formulario {
+  width: 100% !important;
+  background: #f1f1f1;
+  padding: 40px 40px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+select, textarea {
+  border: none;
+  background: none;
+  color: gray;
+}
+
+.formulario h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+  font-size: 40px;
+}
+@media (max-width: 600px) {
+  .formulario h2 {
+    font-size: 30px;
+  }
+}
+
+.box-input {
+  border-bottom: 2px solid #adadad;
+  position: relative;
+  margin: 30px 0;
+}
+
+.box-input input, textarea {
+  font-size: 16px;
+  color: #333;
+  border: none;
+  width: 100%;
+  outline: none;
+  background: none;
+  padding: 0 5px;
+  height: 40px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.focus + span::before {
+  top: -5px;
+}
+
+.focus + span::after {
+  width: 100%;
+}
+
+.boton {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #48bb78;
+  border: solid 2px #48bb78;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  -webkit-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.boton:hover {
+  background-color: #2F855A;
+  border: solid 2px #2F855A;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contacto__texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+select {
+  width: 100%;
+}
+
+#formulario > div:nth-child(6) {
+  margin: 40px auto;
+}

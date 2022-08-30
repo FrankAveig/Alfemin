@@ -1,0 +1,99 @@
+.list-inline-item i {
+  color: #8E8E8E;
+  font-size: 20px;
+}
+
+.descripcion_personal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
+}
+
+body > section.team.bg-light > div > div.row.text-center.mx-5 > div:nth-child(3) > img {
+  width: 400px;
+}
+
+@media (max-width: 800px) {
+  body > section.team.bg-light > div > div.row.text-center.mx-5 > div:nth-child(4) > div > img:nth-child(2) {
+    display: block;
+  }
+}
+
+.d_lg {
+  display: block !important;
+}
+@media (max-width: 800px) {
+  .d_lg {
+    display: none !important;
+  }
+}
+
+.d_sm {
+  display: none !important;
+}
+@media (max-width: 800px) {
+  .d_sm {
+    display: block !important;
+  }
+}
+
+.beneficios p {
+  text-align: justify;
+}
+
+.team .team_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.team .team_img img:nth-child(1) {
+  width: 550px;
+}
+@media (max-width: 800px) {
+  .team .team_img img:nth-child(1) {
+    width: 350px;
+  }
+}
+.team .team_img img:nth-child(2) {
+  width: 350px;
+}
+@media (max-width: 800px) {
+  .team .team_img img:nth-child(2) {
+    width: 250px;
+  }
+}
+
+.bg-body h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.bg-body h2 img {
+  margin-right: 10px;
+}
+
+p span {
+  margin-left: 10px;
+  color: rgba(255, 0, 0, 0.663);
+}

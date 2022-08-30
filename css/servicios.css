@@ -1,0 +1,120 @@
+.descripcion {
+  text-align: justify;
+}
+
+.servicio4 div {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  color: #4e5774;
+  text-align: center;
+  background-color: white;
+  border: 1px solid pink;
+}
+.servicio4 div:nth-child(1) {
+  text-transform: uppercase;
+  background-color: pink;
+}
+.servicio4 div:nth-child(1) h3 {
+  font-weight: bold;
+}
+.servicio4 div h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+body > section:nth-child(7) > div:nth-child(1) {
+  background-color: #f9ecb7;
+  border: none;
+}
+body > section:nth-child(7) > div {
+  border: 1px solid #fbeaa7;
+}
+
+.servicios .container {
+  border-radius: 20px;
+  padding: 15px;
+  /*   .servicio{
+      text-align: jus;
+        align-items: center;
+        display: flex;
+        margin-top: 10px;
+        padding-left: 30px;
+        img{
+          margin-right: 10px;
+          width: 40px;
+        }
+        p{
+          margin: 0;
+        }
+      }
+    }
+    .container:nth-child(2){
+      background-color:#eddfa659;
+    } */
+}
+.servicios .container .row-servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.servicios .container .s1 {
+  background-color: #85BE97;
+}
+.servicios .container .s2 {
+  background-color: #C3DFAA;
+}
+.servicios .container .s3 {
+  background-color: #DBCD95;
+}
+.servicios .container .servicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+  max-width: 300px;
+  min-width: 300px;
+  min-height: 212px;
+  text-align: left;
+  text-align: center;
+  border-radius: 30px;
+  color: #4e5774;
+}
+.servicios .container .servicio p {
+  padding: 20px;
+  margin: 0;
+}
+
+.servicios-3 h3 {
+  text-align: center;
+}
+.servicios-3 .alimentos {
+  background-color: #85BE97;
+  border-radius: 25px;
+  text-align: justify;
+}
+.servicios-3 .contable {
+  background-color: #C3DFAA;
+  border-radius: 25px;
+}
