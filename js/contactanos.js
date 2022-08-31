@@ -26,7 +26,8 @@ setTimeout(() => {
   let servicio = document.querySelector('#servicio').value
   let telefono1 = document.querySelector('#telefono').value
   let comentarios = document.getElementById('comentarios').value
-    
+  alert('b');
+
 
 
   let mensaje = 'send?phone=' + telefono + '&text=*Consulta*%0A%0A*Nombres*%0A' +  nombre + '%0A%0A*Apellidos*%0A' + apellidos +'%0A%0A*Teléfono*%0A'+telefono1+'%0A%0A*Servicio*%0A'+servicio+'%0A%0A*Descripción*%0A'+comentarios +  '%0A%0A*Correo electrónico*%0A' + email + ''

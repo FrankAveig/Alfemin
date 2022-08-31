@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="./css/index.css">
 <link rel="stylesheet" href="./css/servicios.css">
 <link rel="stylesheet" href="./css/navegacion.css">
-
+<link rel="stylesheet" href="./css/languaje.css">
 <link rel="stylesheet" href="./css/header_footer.css">
 <link rel="stylesheet" href="./css/nosotros.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,10 +19,14 @@
 <title>Alfemin</title>
 </head>
 <body>
+  <section id="body">
+
   <i class="icon-menu burger-button"></i>
     <section class="navegacion navegacion2">
       <nav class="menu">
         <ul>
+          <button onclick="english()">English</button>
+          <button onclick="spanish()">Spanish</button>
           <li><a href="./index.html">Inicio</a> </li> 
           <li><a href="./servicios.html">Servicios</a> </li> 
           <li><a href="./nosotros.html">Nosotros</a></li>
@@ -31,15 +35,23 @@
         </ul>
       </nav>
     </section>
-
+    <div id="languaje2">
+      <a  onclick="english()">Inglés</a>
+      <a  onclick="spanish()">Español</a>
+    </div>
   <header>
     <nav class="menu">
       <ul>
+
         <li><a href="./index.html">Inicio</a> </li> 
         <li><a href="./servicios.html">Servicios</a> </li> 
         <li><a href="./nosotros.html">Nosotros</a></li>
         <li><a href="./contactanos.html">Contáctanos</a></li>
       </ul>
+      <div id="languaje">
+        <a  onclick="english()">Inglés</a>
+        <a  onclick="spanish()">Español</a>
+      </div>
     </nav>
     <section class="hero">
       <img src="./images/hero_conocenos.png" alt="">
@@ -52,15 +64,6 @@
     <h1>Alfemin</h1>
   </section>
   
- 
-
-
-
-
-
-
-
-
   <main>
     <div class="descripcion mt-5">
       <div class="row">
@@ -76,42 +79,6 @@
     </div>
   </main>
 
-<!--   <section class="bg-light servicios-3">
-    <div class="container">
-      <div class="row py-5">
-        <div class="links col-10 offset-1 offset-lg-0 col-lg-6 p-5 alimentos">
-          <h3>Alimentos</h3>
-          <ul>
-            <li>Representación Técnica en industrias de alimentos para consumo humano y consumo animal.</li>
-            <li>Obtención de registros sanitarios para industrias de alimentos de consumo animal (acuicola y pecuario), locales, importados y de exportación.</li>
-            <li>Obtención de notificaciones sanitarias para industrias de alimentos de consumo humano locales, importados y de exportación.</li>
-            <li>Implementación del Sistema de Buenas Prácticas de Manufactura.</li>
-            <li>Implementación HACCP.</li>
-            <li>Implementación de sistemas de gestión e calidad ISO 9001:2015.</li>
-            <li>Implementación de Sistemas de Gestión de Calidad aplicados a GLOBAL GAP alcance alimentos Balanceados.</li>
-            <li>Implementación de Sistemas de Gestión de Calidad según en Buenas Practicas Acuícolas BAP.</li>
-            <li>Auditorias Internas y acompañamiento durante auditorias de certificación de BPM, HACCP, GLOBAL GAB, BAP, ISO 9001:2015; ISO 17025:2017, Orgánico Nacional, Orgánico EU y Naturland.</li>
-            <li>Auditorias a proveedores.</li>
-          </ul>
-        </div>
-  
-        <div class="links col-10 offset-1 offset-lg-1 p-5 col-lg-5 contable ">
-          <h3>Contables</h3>
-          <ul>
-            <li>Declaraciones de Impuestos personal natural y jurídica</li>
-            <li>Actualización de contabilidades </li>
-            <li>Liquidación de sociedades</li>
-            <li>Reapertura de sociedades</li>
-            <li>Servicios contables</li>
-          </ul>
-        </div>
-  
-  
-  
-      </div>
-    </div>
-  
-  </section> -->
   
   <section class="servicio4">
     <div class="">
@@ -168,167 +135,28 @@
     <div class="">
       <h3>Servicios contables </h3>
     </div>
-  </section>
- <!--  <section class="servicios px-4 bg-light">
-
-    <div class="container">
-      <p><strong>Alimentos</strong></p>
-      <div class="row row-servicios">
-
-        <div class="col servicio s1">
-          <p>Representación Técnica en industrias de alimentos para consumo humano y consumo animal</p>
-        </div>
-
-        <div class="col servicio s2">
-          <p>Obtención de registros sanitarios para industrias de alimentos de consumo animal (acuicola y pecuario), locales, importados y de exportación</p>
-        </div>
-
-        <div class="col servicio s3">
-          <p>Obtención de notificaciones sanitarias para industrias de alimentos de consumo humano locales, importados y de exportación     </p>
-        </div>
-
-        <div class="col servicio s1">
-          <p>Implementación del Sistema de Buenas Prácticas de Manufactura     </p>
-        </div>
-
-        <div class="col servicio s2">
-          <p>Implementación HACCP </p>
-        </div>
-
-        <div class="col servicio s3">
-          <p>Implementación de sistemas de gestión e calidad ISO 9001:2015 </p>
-        </div>
-
-        <div class="col servicio s1">
-          <p>Implementación de Sistemas de Gestión de Calidad aplicados a GLOBAL GAP alcance alimentos Balanceados </p>
-        </div>
-
-        <div class="col servicio s2">
-          <p>Implementación de Sistemas de Gestión de Calidad según en Buenas Practicas Acuícolas BAP</p>
-        </div>
-
-        <div class="col servicio s3">
-          <p>Auditorias Internas y acompañamiento durante auditorias de certificación de BPM, HACCP, GLOBAL GAB, BAP, ISO 9001:2015; ISO 17025:2017, Orgánico Nacional, Orgánico EU y Naturland</p>
-        </div>
-
-        <div class="col servicio s1">
-          <p>Auditorias a proveedores </p>
-        </div> -->
-
-
-
-<!--        <div class="servicio">
-          <img src="./images/ico5.png" alt="">
-          <p>Representación Técnica en industrias de alimentos para consumo humano y consumo animal</p>
-        </div>
-        
-        <div class="servicio">
-          <img src="./images/ico5.png" alt="">
-          <p>Obtención de registros sanitarios para industrias de alimentos de consumo animal (acuicola y pecuario), locales, importados y de exportación</p>
-        </div>
-
-        <div class="servicio">
-          <img src="./images/ico5.png" alt="">
-          <p>Obtención de notificaciones sanitarias para industrias de alimentos de consumo humano locales, importados y de exportación     </p>
-        </div>
-
-        <div class="servicio">
-          <img src="./images/ico5.png" alt="">
-          <p>Implementación del Sistema de Buenas Prácticas de Manufactura     </p>
-        </div>
-        
-        <div class="servicio">
-          <img src="./images/ico5.png" alt="">
-          <p>Implementación HACCP </p>
-        </div>
-
-        <div class="servicio">
-          <img src="./images/ico5.png" alt="">
-          <p>Implementación de sistemas de gestión e calidad ISO 9001:2015 </p>
-        </div>
-        
-        <div class="servicio ">
-          <img src="./images/ico5.png" alt="">
-          <p>Implementación de Sistemas de Gestión de Calidad aplicados a GLOBAL GAP alcance alimentos Balanceados </p>
-        </div>
-        
-        <div class="servicio">
-          <img src="./images/ico5.png" alt="">
-          <p>Implementación de Sistemas de Gestión de Calidad según en Buenas Practicas Acuícolas BAP</p>
-        </div>
-
-        <div class="servicio">
-          <img src="./images/ico5.png" alt="">
-          <p>Auditorias Internas y acompañamiento durante auditorias de certificación de BPM, HACCP, GLOBAL GAB, BAP, ISO 9001:2015; ISO 17025:2017, Orgánico Nacional, Orgánico EU y Naturland</p>
-        </div>
-        <div class="servicio">
-          <img src="./images/ico5.png" alt="">
-          <p>Auditorias a proveedores </p>
-        </div>
-
-        
-        
-        </div>
-      </div>
-
-    <div class="container  mt-5">
-      <p><strong>Contables</strong></p>
-      <div class="row row-servicios">
-
-        <div class="col servicio">
-          <p>Declaraciones de Impuestos personal natural y jurídica</p>
-        </div>
-
-        <div class="col servicio">
-          <p>Actualización de contabilidades</p>
-        </div>
-
-        <div class="col servicio">
-          <p>Liquidación de sociedades</p>
-        </div>
-
-        <div class="col servicio">
-          <p>Reapertura de sociedades</p>
-        </div>
-
-        <div class="col servicio">
-          <p>Servicios contables</p>
-        </div>
-
-
-
- <div class="servicio">
-          <img src="./images/logo_servicio2.png" alt="">
-          <p>Declaraciones de Impuestos personal natural y jurídica</p>
-        </div>
-        
-        <div class="servicio">
-          <img src="./images/logo_servicio2.png" alt="">
-          <p>Actualización de contabilidades</p>
-        </div>
-
-        <div class="servicio">
-          <img src="./images/logo_servicio2.png" alt="">
-          <p>Liquidación de sociedades</p>
-        </div>
-
-        <div class="servicio">
-          <img src="./images/logo_servicio2.png" alt="">
-          <p>Reapertura de sociedades</p>
-        </div>
-        
-        
-        <div class="servicio">
-          <img src="./images/logo_servicio2.png" alt="">
-          <p>Servicios contables</p>
-        </div>
-        </div>
-      </div> 
-
-
+    <div class="">
+      <h3>Declaración y pago de retenciones fuente de renta </h3>
     </div>
-  </section> -->
-
+    <div class="">
+      <h3>Formulario 103. declaración y pago de impuestos al valor agregado </h3>
+    </div>
+    <div class="">
+      <h3>Formulario 104. declaración y pago de impuestos a los cosumidores </h3>
+    </div>
+    <div class="">
+      <h3>Anexos del ICE </h3>
+    </div>
+    <div class="">
+      <h3>Formulario 105. Anexo transaccional simplificado ATS. </h3>
+    </div>
+    <div class="">
+      <h3>Devolución de IVA </h3>
+    </div>
+    <div class="">
+      <h3>Declaración de gastos personales</h3>
+    </div>
+  </section>
 
   <footer>
     <div class="container">
@@ -349,8 +177,177 @@
       <a href=""><i class="fab fa-twitter-square"></i></a>
     </section>
   </footer>
+  </section>
+
+
+
+<!--------------- English --------------->
+
+<section id="body2" class="hide">
+    <i class="icon-menu burger-button burger-button2"></i>
+      <section class="navegacion navegacion2">
+        <nav class="menu menu2">
+        <ul>
+
+          <li><a href="./index.html">Home</a> </li> 
+          <li><a href="./servicios.html">Services</a> </li> 
+          <li><a href="./nosotros.html">About us</a></li>
+          <li><a href="./contactanos.html">Contact us</a></li>
+          
+        </ul>
+      </nav>
+    </section>
+    <div id="languaje2">
+      <a  onclick="english()">English</a>
+      <a  onclick="spanish()">Spanish</a>
+    </div>
+  <header>
+    <nav class="menu">
+      <ul>
+
+          <li><a href="./index.html">Home</a> </li> 
+          <li><a href="./servicios.html">Services</a> </li> 
+          <li><a href="./nosotros.html">About us</a></li>
+          <li><a href="./contactanos.html">Contact us</a></li>
+      </ul>
+      <div id="languaje">
+        <a  onclick="english()">English</a>
+        <a  onclick="spanish()">Spanish</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <img src="./images/hero_conocenos.png" alt="">
+    </section>
+    <section class="hero2">
+      <img src="./images/celular_conocenos.png" alt="">
+    </section>
+  </header>
+  <section class="nombre">
+    <h1>Alfemin</h1>
+  </section>
+  
+  <main>
+    <div class="descripcion mt-5">
+      <div class="row">
+        <div class="col-12 col-lg-6 d-flex justify-content-center my-5 my-lg-0">
+          <img src="./images/logo_servicios.png" alt="">
+        </div>
+        <div class="col-12 col-lg-6  d-flex align-items-center pe-lg-5 ">
+          <p class="pe-lg-5">Get to know all the services we have to offer you, each
+             of them has been designed to meet the needs that your company requires in 
+             terms of advice and technical support in our different areas. We invite you 
+             to explore our services and quote the one you need, we will be happy to contact 
+             you and be part of the growth of your company..
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  
+  <section class="servicio4">
+    <div class="">
+      <h3>Food Sector      </h3>
+    </div>
+    <div class="">
+      <h3>Technical representation in food industries for human consumption and animal consumption</h3>
+    </div>
+    <div class="">
+      <h3>Obtaining sanitary registrations for food industries for animal consumption (aquaculture and livestock), local, imported and export</h3>
+    </div>
+    <div class="">
+      <h3>Obtaining health notifications for local, imported and export food industries for human consumption</h3>
+    </div>
+    <div class="">
+      <h3>Implementation of the Good Manufacturing Practices System </h3>
+    </div>
+    <div class="">
+      <h3>HACCP Implementation </h3>
+    </div>
+    <div class="">
+      <h3>Implementation of management and quality systems ISO 9001: 2015 </h3>
+    </div>
+    <div class="">
+      <h3>Implementation of Quality Management Systems applied to GLOBAL GAP scope Balanced Foods </h3>
+    </div>
+    <div class="">
+      <h3>Implementation of Quality Management Systems according to Good Aquaculture Practices BAP </h3>
+    </div>
+    <div class="">
+      <h3>Internal Audits and accompaniment during certification audits of BPM, HACCP, GLOBAL GAB, BAP, ISO 9001:2015; ISO 17025:2017, National Organic, EU Organic and Naturland </h3>
+    </div>
+    <div class="">
+      <h3>Supplier audits</h3>
+    </div>
+
+
+
+  </section>
+
+  <section class="servicio4">
+    <div class="">
+      <h3>Accounting Sector      </h3>
+    </div>
+    <div class="">
+      <h3>Accounting update      </h3>
+    </div>
+    <div class="">
+      <h3>Liquidation of companies   </h3>
+    </div>
+    <div class="">
+      <h3>Reopening of companies </h3>
+    </div>
+    <div class="">
+      <h3>Accounting service      </h3>
+    </div>
+    <div class="">
+      <h3>Declaration and payment of income source withholdings </h3>
+    </div>
+    <div class="">
+      <h3>Form 103. declaration and payment of value added taxes</h3>
+    </div>
+    <div class="">
+      <h3>       Form 104. declaration and payment of taxes to consumers </h3>
+    </div>
+    <div class="">
+      <h3>ICE Annexes      </h3>
+    </div>
+    <div class="">
+      <h3>Form 105. ATS simplified transactional annex. </h3>
+    </div>
+    <div class="">
+      <h3>VAT refund</h3>
+    </div>
+    <div class="">
+      <h3>Declaration of personal expenses</h3>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex" >
+          <img src="./images/logo-bn.png" alt="">
+        </div>
+        <div class="col-12">
+          <!--           <p>Pradera 1 MzE4 V12 - Guayaquil - Ecuador</p>
+          -->       <p>
+Cell phone:(+593) 98 654 7598</p>
+          <!--           <p>Telf:(+593) 4 507 3054</p>
+          -->    </div>
+      </div>
+    </div>
+    <section class="social">
+      <a href=""><i class="fab fa-facebook-square"></i></a>
+      <a href=""><i class="fab fa-instagram"></i></a>
+      <a href=""><i class="fab fa-twitter-square"></i></a>
+    </section>
+  </footer>
+  </section>
+
+
   <script src="https://kit.fontawesome.com/276faf51c6.js" crossorigin="anonymous"></script>
   <script src="./js/button_nav.js"></script>
-
+  <script src="./js/languaje.js"></script>
 </body>
 </html>

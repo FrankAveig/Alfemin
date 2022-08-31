@@ -3,4 +3,55 @@
 }
 .show{
     display: block;
+
+}
+#languaje{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+#languaje a{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.592);
+    margin: auto 10px;
+    background-color: transparent;
+    font-weight: 600;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    cursor: pointer;
+}
+
+#languaje2 {
+    display: none;
+  
+}
+#languaje2 a{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.592);
+    background-color: transparent;
+    font-weight: 600;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    cursor: pointer;
+
+
+}
+#languaje2 > a:nth-child(1){
+    margin-right: 10px;
+}    
+
+
+#langauje2 > a:nth-child(1){
+    margin-left: 10px;
+
+}
+@media (max-width:800px)   {
+#languaje2 {
+    display:flex;
+    justify-content: center!important;
+  
+} 
+
 }

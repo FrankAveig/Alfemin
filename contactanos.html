@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="./css/index.css">
 <link rel="stylesheet" href="./css/navegacion.css">
-<link rel="stylesheet" href="./css/header_footer.css">
+<link rel="stylesheet" href="./css/languaje.css">
 <link rel="stylesheet" href="./css/contactanos.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +17,13 @@
 <title>Alfemin</title>
 </head>
 <body>
+  <section id="body">
+
   <i class="icon-menu burger-button"></i>
     <section class="navegacion navegacion2">
       <nav class="menu">
         <ul>
+
           <li><a href="./index.html">Inicio</a> </li> 
           <li><a href="./servicios.html">Servicios</a> </li> 
           <li><a href="./nosotros.html">Nosotros</a></li>
@@ -28,15 +31,23 @@
         </ul>
       </nav>
     </section>
-
+    <div id="languaje2">
+      <a  onclick="english()">Inglés</a>
+      <a  onclick="spanish()">Español</a>
+    </div>
   <header>
     <nav class="menu">
       <ul>
-        <li><a href="./index.html">Inicio</a> </li> 
+
+        <li><a href="./index.html">Inicio</a> </li>  
         <li><a href="./servicios.html">Servicios</a> </li> 
         <li><a href="./nosotros.html">Nosotros</a></li>
         <li><a href="./contactanos.html">Contáctanos</a></li>
       </ul>
+      <div id="languaje">
+        <a  onclick="english()">Inglés</a>
+        <a  onclick="spanish()">Español</a>
+      </div>
     </nav>
     <section class="hero">
       <img src="./images/hero_contactanos.png" alt="">
@@ -95,6 +106,7 @@
                 </div>
                 
                 <button id="submit" type="submit" class="boton"><i class="fab fa-whatsapp"></i> Enviar WhatsApp</button>
+                
               </form>
                 
             </div>
@@ -124,8 +136,138 @@
 
     </section>
   </footer>
+   </section>
+  
+
+    <!--  English -->
+
+    <section id="body2" class="hide">
+
+      <i class="icon-menu burger-button burger-button2"></i>
+        <section class="navegacion navegacion2">
+          <nav class="menu menu2">
+            <ul>
+
+              <li><a href="./index.html">Home</a> </li> 
+              <li><a href="./servicios.html">Services</a> </li> 
+              <li><a href="./nosotros.html">About us</a></li>
+              <li><a href="./contactanos.html">Contact us</a></li>
+              
+            </ul>
+          </nav>
+        </section>
+        <div id="languaje2">
+          <a  onclick="english()">English</a>
+          <a  onclick="spanish()">Spanish</a>
+        </div>
+      <header>
+        <nav class="menu">
+          <ul>
+
+            <li><a href="./index.html">Home</a> </li> 
+            <li><a href="./servicios.html">Services</a> </li> 
+            <li><a href="./nosotros.html">About us</a></li>
+            <li><a href="./contactanos.html">Contact us</a></li>
+          </ul>
+          <div id="languaje">
+            <a  onclick="english()">English</a>
+            <a  onclick="spanish()">Spanish</a>
+          </div>
+        </nav>
+        <section class="hero">
+          <img src="./images/hero_contactanos.png" alt="">
+        </section>
+        <section class="hero2">
+          <img src="./images/celular_contactanos.png" alt="">
+        </section>
+      </header>
+      <section class="nombre">
+        <h1>Alfemin</h1>
+      </section>
+      <main>
+        <section class="contacto  pt-lg-5 px-md-5 px-lg-0 " >
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-xl-6 contacto__texto  ">
+                <div class="row ">
+                  <div class="col text-center pt-5 text-lg-start  ">
+                    <h2>We will be happy to receive your messages and be able to provide you with solutions</h2>
+                    <p>Send us a message by this means. We will be happy to assist you</p>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-12 col-xl-6   d-flex flex-column justify-content-center">
+                <div class="bienvenida__texto  p-3 p-md-5 p-xl-4  ">
+                  <form id="formulario2" class="formulario">
+                    <h2>Contact Form                    </h2>
+                    <div class="box-input">
+                        <input name="nombre2" id="nombre2" type="text" required placeholder="Name">
+                    </div>
+    
+                    <div class="box-input">
+                        <input name="apellidos2" id="apellidos2" type="text" required placeholder="Surnames                        ">
+                    </div>
+    
+                    <div class="box-input">
+                      <input name="telefono2" id="telefono2" type="tel" required placeholder="Telephone                      ">
+                    </div>
+                    
+                    <div class="box-input">
+                      <input name="email2" id="email2" type="email" required placeholder="E-Mail">
+                    </div>
+    
+                    <div class="box-input">
+                      <select name="" id="servicio2">
+                        <option value="no seleccionado" selected disabled>Select a service </option>
+                        <option value="Asesorías técnicas sector alimentos">Food technical advice</option>
+                        <option value="Registros sanitarios">Health records</option>
+                        <option value="Certificaciones">Certifications                        </option>
+                        <option value="Asesoría técnica tributaria">Tax technical advice                        </option>
+                      </select>
+                    </div>
+    
+                    <div class="box-input">
+                      <textarea name="comentarios2"  id="comentarios2" rows="4"  placeholder="Describe your query                      "></textarea>
+                    </div>
+                    
+                    <button id="submit2" type="submit" class="boton"><i class="fab fa-whatsapp"></i> Send whatsapp</button>
+                  </form>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 d-flex" >
+              <img src="./images/logo-bn.png" alt="">
+            </div>
+            <div class="col-12">
+              <!--           <p>Pradera 1 MzE4 V12 - Guayaquil - Ecuador</p>
+               -->       <p>Cell phone:(+593) 98 654 7598</p>
+              <!--           <p>Telf:(+593) 4 507 3054</p>
+               -->    </div>
+          </div>
+        </div>
+        <section class="social">
+          <a href=""><i class="fab fa-facebook-square"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-twitter-square"></i></a>
+    
+        </section>
+      </footer>
+       </section>
+
+
+
+  <script src="./js/languaje.js"></script>
   <script src="https://kit.fontawesome.com/276faf51c6.js" crossorigin="anonymous"></script>
   <script src="./js/button_nav.js"></script>
+  <script src="./js/contactUS.js"></script>
   <script src="./js/contactanos.js"></script>
 </body>
 </html>
