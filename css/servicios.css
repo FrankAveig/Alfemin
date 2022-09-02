@@ -3,10 +3,13 @@
 }
 
 .servicio4 div {
-  height: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -22,10 +25,9 @@
   background-color: white;
   border: 1px solid pink;
 }
-@media (max-width: 800px) {
-  .servicio4 div {
-    height: 150px;
-  }
+.servicio4 div ul {
+  padding: 0;
+  list-style: none;
 }
 .servicio4 div:nth-child(1) {
   text-transform: uppercase;

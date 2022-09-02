@@ -4,8 +4,8 @@
 
 .servicio4{
   div{
-    height: 90px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 90%;
@@ -17,7 +17,10 @@
     background-color: white;
     border: 1px solid pink;
     @media (max-width:800px) {
-      height: 150px;
+    }
+    ul{
+      padding: 0;
+      list-style: none;  
     }
     &:nth-child(1){
       text-transform: uppercase;

@@ -124,6 +124,7 @@ body > section.seccion2 > div > div > div.col-lg-6.col-12.texto-main > ol > ul >
 .servicios {
   padding: 40px 0 40px 0;
   color: #4e5774;
+  overflow: hidden;
 }
 .servicios h2 {
   font-weight: 700;
@@ -273,12 +274,12 @@ footer {
 }
 footer p {
   color: white !important;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   margin-bottom: 0;
 }
 footer img {
-  width: 100px;
+  width: 150px;
   margin: auto;
   margin-bottom: 20px;
 }

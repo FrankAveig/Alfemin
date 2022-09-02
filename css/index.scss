@@ -114,6 +114,7 @@ main{
 .servicios{
   padding:40px 0 40px 0 ;
   color: $text-color;
+  overflow: hidden;
   h2{
     font-weight:700;
     text-transform: uppercase;
@@ -236,12 +237,12 @@ footer{
   background:$primary-color!important;
   p{ 
   color: white!important;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   margin-bottom: 0;
 }
   img{
-    width: 100px;
+    width: 150px;
     margin: auto;
     margin-bottom: 20px;
   }
